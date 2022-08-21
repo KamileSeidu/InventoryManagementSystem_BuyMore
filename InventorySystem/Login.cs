@@ -94,5 +94,25 @@ namespace InventorySystemCsharp
         {
             this.Close();
         }
+
+        private void bunifuMetroTextbox1_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

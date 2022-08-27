@@ -8,9 +8,11 @@ namespace InventorySystemCsharp
 {
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
+        
+        /// Application entry point
+        /// KAMILE SEIDU IS MY NAME, I COME FROM WA IN THEE UPPER WEST REGION OF GHANA. 
+        /// C_SHARP_SHARP
+        
         [STAThread]
         static void Main()
         {

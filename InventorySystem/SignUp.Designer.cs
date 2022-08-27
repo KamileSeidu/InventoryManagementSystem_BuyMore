@@ -45,15 +45,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.close_btn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.close_btn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -108,9 +108,9 @@
             // 
             // bunifuMetroTextbox6
             // 
-            this.bunifuMetroTextbox6.BorderColorFocused = System.Drawing.Color.Silver;
-            this.bunifuMetroTextbox6.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox6.BorderColorMouseHover = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox6.BorderColorFocused = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox6.BorderColorIdle = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox6.BorderColorMouseHover = System.Drawing.Color.Black;
             this.bunifuMetroTextbox6.BorderThickness = 1;
             this.bunifuMetroTextbox6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuMetroTextbox6.Font = new System.Drawing.Font("Century Gothic", 9.75F);
@@ -125,9 +125,9 @@
             // 
             // bunifuMetroTextbox5
             // 
-            this.bunifuMetroTextbox5.BorderColorFocused = System.Drawing.Color.Silver;
-            this.bunifuMetroTextbox5.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox5.BorderColorMouseHover = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox5.BorderColorFocused = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox5.BorderColorIdle = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox5.BorderColorMouseHover = System.Drawing.Color.Black;
             this.bunifuMetroTextbox5.BorderThickness = 1;
             this.bunifuMetroTextbox5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuMetroTextbox5.Font = new System.Drawing.Font("Century Gothic", 9.75F);
@@ -142,9 +142,9 @@
             // 
             // bunifuMetroTextbox4
             // 
-            this.bunifuMetroTextbox4.BorderColorFocused = System.Drawing.Color.Silver;
-            this.bunifuMetroTextbox4.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox4.BorderColorMouseHover = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox4.BorderColorFocused = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox4.BorderColorIdle = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox4.BorderColorMouseHover = System.Drawing.Color.Black;
             this.bunifuMetroTextbox4.BorderThickness = 1;
             this.bunifuMetroTextbox4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuMetroTextbox4.Font = new System.Drawing.Font("Century Gothic", 9.75F);
@@ -159,9 +159,9 @@
             // 
             // bunifuMetroTextbox3
             // 
-            this.bunifuMetroTextbox3.BorderColorFocused = System.Drawing.Color.Silver;
-            this.bunifuMetroTextbox3.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox3.BorderColorMouseHover = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox3.BorderColorFocused = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox3.BorderColorIdle = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox3.BorderColorMouseHover = System.Drawing.Color.Black;
             this.bunifuMetroTextbox3.BorderThickness = 1;
             this.bunifuMetroTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuMetroTextbox3.Font = new System.Drawing.Font("Century Gothic", 9.75F);
@@ -176,9 +176,9 @@
             // 
             // bunifuMetroTextbox2
             // 
-            this.bunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.Silver;
-            this.bunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.Black;
             this.bunifuMetroTextbox2.BorderThickness = 1;
             this.bunifuMetroTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
@@ -193,9 +193,9 @@
             // 
             // bunifuMetroTextbox1
             // 
-            this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.Silver;
-            this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.Black;
             this.bunifuMetroTextbox1.BorderThickness = 1;
             this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
@@ -301,44 +301,6 @@
             this.panel1.Size = new System.Drawing.Size(314, 546);
             this.panel1.TabIndex = 27;
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Showcard Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Transparent;
-            this.label9.Location = new System.Drawing.Point(397, 45);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(166, 46);
-            this.label9.TabIndex = 28;
-            this.label9.Text = "SIGN UP";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
-            // 
-            // bunifuElipse2
-            // 
-            this.bunifuElipse2.ElipseRadius = 20;
-            this.bunifuElipse2.TargetControl = this.bunifuFlatButton1;
-            // 
-            // bunifuElipse1
-            // 
-            this.bunifuElipse1.ElipseRadius = 35;
-            this.bunifuElipse1.TargetControl = this;
-            // 
-            // close_btn
-            // 
-            this.close_btn.FlatAppearance.BorderSize = 0;
-            this.close_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.close_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.close_btn.ForeColor = System.Drawing.Color.White;
-            this.close_btn.Image = ((System.Drawing.Image)(resources.GetObject("close_btn.Image")));
-            this.close_btn.Location = new System.Drawing.Point(603, -7);
-            this.close_btn.Margin = new System.Windows.Forms.Padding(2);
-            this.close_btn.Name = "close_btn";
-            this.close_btn.Size = new System.Drawing.Size(64, 58);
-            this.close_btn.TabIndex = 60;
-            this.close_btn.UseVisualStyleBackColor = true;
-            this.close_btn.Click += new System.EventHandler(this.close_btn_Click);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -396,6 +358,44 @@
             this.label11.Size = new System.Drawing.Size(190, 29);
             this.label11.TabIndex = 19;
             this.label11.Text = "WE GOT THIS!";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Showcard Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Transparent;
+            this.label9.Location = new System.Drawing.Point(397, 45);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(166, 46);
+            this.label9.TabIndex = 28;
+            this.label9.Text = "SIGN UP";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // bunifuElipse2
+            // 
+            this.bunifuElipse2.ElipseRadius = 20;
+            this.bunifuElipse2.TargetControl = this.bunifuFlatButton1;
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 35;
+            this.bunifuElipse1.TargetControl = this;
+            // 
+            // close_btn
+            // 
+            this.close_btn.FlatAppearance.BorderSize = 0;
+            this.close_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.close_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.close_btn.ForeColor = System.Drawing.Color.White;
+            this.close_btn.Image = ((System.Drawing.Image)(resources.GetObject("close_btn.Image")));
+            this.close_btn.Location = new System.Drawing.Point(589, -3);
+            this.close_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.close_btn.Name = "close_btn";
+            this.close_btn.Size = new System.Drawing.Size(64, 58);
+            this.close_btn.TabIndex = 60;
+            this.close_btn.UseVisualStyleBackColor = true;
+            this.close_btn.Click += new System.EventHandler(this.close_btn_Click);
             // 
             // SignUp
             // 

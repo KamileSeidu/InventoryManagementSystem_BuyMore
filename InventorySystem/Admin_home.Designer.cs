@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin_home));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.slide_panel = new System.Windows.Forms.Panel();
             this.logout_btn2 = new System.Windows.Forms.Button();
@@ -72,7 +72,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.MfnameTxt = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label9 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -82,6 +81,7 @@
             this.close_btn = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.dashboard_panel.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -137,6 +137,7 @@
             this.logout_btn2.Text = "   Logout";
             this.logout_btn2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.logout_btn2.UseVisualStyleBackColor = true;
+            this.logout_btn2.Click += new System.EventHandler(this.logout_btn2_Click_1);
             // 
             // user_list_btn
             // 
@@ -198,7 +199,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Cooper Black", 32.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.label2.Location = new System.Drawing.Point(319, 76);
+            this.label2.Location = new System.Drawing.Point(320, 76);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(861, 49);
             this.label2.TabIndex = 3;
@@ -475,6 +476,7 @@
             // 
             // add_manager_panel
             // 
+            this.add_manager_panel.Controls.Add(this.label1);
             this.add_manager_panel.Controls.Add(this.typecomboTxt);
             this.add_manager_panel.Controls.Add(this.label14);
             this.add_manager_panel.Controls.Add(this.Mregister_btn);
@@ -490,7 +492,6 @@
             this.add_manager_panel.Controls.Add(this.label10);
             this.add_manager_panel.Controls.Add(this.MfnameTxt);
             this.add_manager_panel.Controls.Add(this.label9);
-            this.add_manager_panel.Controls.Add(this.label6);
             this.add_manager_panel.Location = new System.Drawing.Point(208, 163);
             this.add_manager_panel.Margin = new System.Windows.Forms.Padding(2);
             this.add_manager_panel.Name = "add_manager_panel";
@@ -750,17 +751,6 @@
             this.label9.TabIndex = 5;
             this.label9.Text = "Fisrt Name : ";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(403, 17);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(203, 23);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Create New Account";
-            // 
             // bunifuElipse1
             // 
             this.bunifuElipse1.ElipseRadius = 20;
@@ -793,7 +783,7 @@
             this.logout_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logout_btn.ForeColor = System.Drawing.Color.White;
             this.logout_btn.Image = ((System.Drawing.Image)(resources.GetObject("logout_btn.Image")));
-            this.logout_btn.Location = new System.Drawing.Point(1036, 1);
+            this.logout_btn.Location = new System.Drawing.Point(1032, 6);
             this.logout_btn.Margin = new System.Windows.Forms.Padding(2);
             this.logout_btn.Name = "logout_btn";
             this.logout_btn.Size = new System.Drawing.Size(77, 58);
@@ -808,7 +798,7 @@
             this.close_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close_btn.ForeColor = System.Drawing.Color.White;
             this.close_btn.Image = ((System.Drawing.Image)(resources.GetObject("close_btn.Image")));
-            this.close_btn.Location = new System.Drawing.Point(1100, 3);
+            this.close_btn.Location = new System.Drawing.Point(1100, 6);
             this.close_btn.Margin = new System.Windows.Forms.Padding(2);
             this.close_btn.Name = "close_btn";
             this.close_btn.Size = new System.Drawing.Size(64, 58);
@@ -824,8 +814,8 @@
             this.dataGridView1.Location = new System.Drawing.Point(15, 140);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(1180, 10);
@@ -840,6 +830,16 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 100;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Schoolbook", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(363, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(214, 25);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Create an Account";
             // 
             // Admin_home
             // 
@@ -905,7 +905,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel add_manager_panel;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label7;
         private Bunifu.Framework.UI.BunifuThinButton2 check_orders_btn;
@@ -936,5 +935,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

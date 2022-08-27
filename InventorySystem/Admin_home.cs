@@ -21,7 +21,7 @@ namespace InventorySystemCsharp
             dashboard_panel.BringToFront();
         }
 
-        //logout 
+        //implemetation of logout function
         private void logout_btn_Click(object sender, EventArgs e)
         {
             Login login = new Login();
@@ -44,21 +44,23 @@ namespace InventorySystemCsharp
 
         }
 
-        //close button
+        //implemtation of close button
         private void close_btn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        //------------------------------------navigation pane button events
-        //dashboard button
+                                                        // navigation pane button events
+
+        //implemetation of dashboard button function
         private void dashboard_btn_Click(object sender, EventArgs e)
         {
             slide_panel.Height = dashboard_btn.Height;
             slide_panel.Top = dashboard_btn.Top;
             dashboard_panel.BringToFront();
         }
-        //add manager button
+
+        // Add manager button function
         private void add_manager_btn_Click(object sender, EventArgs e)
         {
             slide_panel.Height = add_manager_btn.Height;
@@ -77,9 +79,9 @@ namespace InventorySystemCsharp
         }
 
 
-        ////////////////////////////////////---------------DASHBOARD PANEL FUNCTIONS----------///////////////////////////////////////
+                                                    //implementation of Dashboard Panel Functions
 
-        //The method executes when the user home button clicks
+        //This method executes when the user clicks the home button
         private void user_home_btn_Click(object sender, EventArgs e)
         {
             Home user_home = new Home();
@@ -106,9 +108,9 @@ namespace InventorySystemCsharp
         }
 
 
-        ////////////////////////////////////---------------Add manager PANEL FUNCTIONS----------///////////////////////////////////////
+                                                            // Add manager PANEL FUNCTIONS
 
-        //The method executes when the create manager acc button clicks
+        //This method executes when the create manager acc button is clicked
         private void Mregister_btn_Click(object sender, EventArgs e)
         {
             if (MfnameTxt.Text != "" && MlnameTxt.Text != "" && MusernameTxt.Text != "" && MphonenumTxt.Text != "" && MpassTxt.Text != "" && MrepassTxt.Text != "" && typecomboTxt.Text != "")
@@ -117,7 +119,7 @@ namespace InventorySystemCsharp
                 {
                     try
                     {
-                        //String status = "manager";
+                        
                         MySqlConnection conn = new MySqlConnection(@"datasource=127.0.0.1;port=3306;SslMode=none;username=root;password=;database=inventorymgcsharp;");
                         string query = "insert into `users`(`first`,`last`,`username`,`phone`,`password`,`usertype`) values('" + MfnameTxt.Text.Trim() + "','" + MlnameTxt.Text.Trim() + "','" + MusernameTxt.Text.Trim() + "','" + MphonenumTxt.Text.Trim() + "','" + MD5Hash(MpassTxt.Text.Trim()) + "','" + typecomboTxt.Text.Trim() + "')";
                         MySqlCommand cmd = new MySqlCommand(query, conn);
@@ -158,6 +160,9 @@ namespace InventorySystemCsharp
             return hash.ToString();
         }
 
-        
+        private void logout_btn2_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

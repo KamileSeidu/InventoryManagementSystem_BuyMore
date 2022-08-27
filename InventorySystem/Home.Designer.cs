@@ -309,11 +309,11 @@
             // 
             this.button2.BackColor = System.Drawing.Color.ForestGreen;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Century Schoolbook", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(657, 568);
+            this.button2.Location = new System.Drawing.Point(852, 545);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(344, 50);
+            this.button2.Size = new System.Drawing.Size(160, 50);
             this.button2.TabIndex = 29;
             this.button2.Text = "Checkout";
             this.button2.UseVisualStyleBackColor = false;
@@ -321,13 +321,13 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.DimGray;
+            this.button4.BackColor = System.Drawing.Color.DodgerBlue;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Century Schoolbook", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(657, 516);
+            this.button4.Location = new System.Drawing.Point(669, 545);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(344, 50);
+            this.button4.Size = new System.Drawing.Size(160, 50);
             this.button4.TabIndex = 29;
             this.button4.Text = "Add To Cart";
             this.button4.UseVisualStyleBackColor = false;

@@ -67,16 +67,3 @@ You have been hired as a software engineer to develop an inventory management sy
 - Admin can delete product
 - <code>follow this youtube link to see a demostration of all the features in the app</code>
 
-## **UML DIAGRAM**
-
-## ![Image Link] (https://github.com/KamileSeidu/InventoryManagementSystem_ShopRite/blob/master/Assests/New___.drawio%20(1).png)
-
----
-
-## **FLOW CHART**
-
-![Image Link] ()
-
----
-
-# FULL APPLICATION DEMOSTRATION

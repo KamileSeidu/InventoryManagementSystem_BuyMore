@@ -69,7 +69,7 @@ You have been hired as a software engineer to develop an inventory management sy
 
 ## **UML DIAGRAM**
 
-![Image Link] ()
+![Image Link] (https://github.com/KamileSeidu/InventoryManagementSystem_ShopRite/blob/master/Assests/New___.drawio%20(1).png)
 
 ---
 

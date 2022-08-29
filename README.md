@@ -65,5 +65,5 @@ You have been hired as a software engineer to develop an inventory management sy
 - Admin can add prodcuts
 - Admin Update the status of a product
 - Admin can delete product
-- <code>follow this youtube link to see a demostration of all the features in the app</code>
+- <code>follow this youtube link to see a demostration of all the features in the app: https://youtu.be/zi6lkVy0_VU</code>
 
